@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ff8000;
+}
+
+.container {
+    width: 430px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .conteudo {
+    margin: 25px 25px 35px;
+}
+
+.container .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .inputs input {
+    height: 57px;
+    width: 56px;
+    margin: 4px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    background-color: #f8dabd;
+    border-radius: 5px;
+    border: 1px solid #e8d5c0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo .details {
+    margin: 20px 0 25px;
+}
+
+.details p {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.conteudo .resetar-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #ff8000;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.conteudo .input-digitacao {
+    z-index: -999;
+    position: absolute;
+    opacity: 0;
+}

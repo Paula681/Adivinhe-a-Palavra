@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script/palavras.js" defer></script> 
+    <script src="script/game.js" defer></script>
+    <title>Jogo Adivinhação</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Adivinhe a palavra</h1>
+        <div class="conteudo">
+            <input type="text" class="input-digitacao" maxlength="1" placeholder="Digite uma letra">
+            <div class="inputs"></div>
+
+            <div class="details">
+                <p>Dica: <span class="dica"></span></p>
+                <p>Tentativas restantes: <span class="tentativas">8</span></p>
+                <p>Letras erradas: <span class="letras-erradas"></span></p>
+            </div>
+
+            <button class="resetar-btn">Resetar Jogo</button>
+        </div>
+    </div>
+
+</body>
+</html>
